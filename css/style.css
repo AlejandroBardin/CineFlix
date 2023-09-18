@@ -1,0 +1,399 @@
+body{
+    background: rgb(105,0,0);
+    background: linear-gradient(90deg, rgba(105,0,0,1) 33%, rgba(221,0,0,1) 73%);
+
+}
+
+.Form{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.Parrafo2{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 110px;
+}
+
+.Parrafo3{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.Planes{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.Planes2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.mensual{
+    margin-top: 5%;
+    margin-left: 28%;
+    margin-right: 1%;
+    padding: 75px;
+}
+
+.anual{
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 28%;
+    padding: 75px;
+}
+
+.Form2{
+    display: block;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 60%;
+    margin-bottom: 10%;
+}
+.imagen2{
+    width: auto;
+    height: 490px;
+    margin-left: 45%;
+    margin-top: -43%;
+    margin-bottom: 1%;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+}
+
+button{
+    font-family: 'Outfit', sans-serif;
+}
+
+.Logo{
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.suscribirme{
+    color: white;
+}
+
+.BotonInicioA{
+    margin-left: 84.7%;
+    margin-top: 1.5%;
+    margin-right: 3%;
+}
+
+.BotonInicio{
+    padding: 10px
+}
+
+
+
+
+@media (max-width: 1024px){
+   .imagen{
+    width: 0px;
+   }
+   .Parrafo1{
+    font-size: 26px;
+    margin: 0px;
+    margin-top: 60%;
+    text-align: center;
+   }
+   .BotonSuscripcion{
+    width: 70%;
+    margin-left: 55px;
+   }
+   .BotonInicio{
+    padding: 20px;
+    margin-left: -200px;
+    margin-top: 10px;
+   }
+   .Planes{
+    font-size: 30px;
+    margin-top: 40%;
+   }
+
+   .Planes2{
+    font-size: 20px;
+   }
+   .mensual{
+    padding: 60px;
+    margin: 0px;
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .anual{
+    padding: 60px;
+    margin: 0px;
+    margin-left: 85px;
+   }
+   .Form{
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+   }
+   .Parrafo2{
+    margin: 0px;
+    margin-right: 45px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+   }
+   .img2{
+    width: 0;
+   }
+   .Form2{
+    margin: 0;
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+   }
+   .texto404{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+   }
+   .Oops404{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+   }
+   .gif{
+    width: 180px;
+    display: block;
+    margin: auto;
+   }
+   .error404{
+    margin-top: 70%;
+   }
+   
+}
+
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.navbar-brand{
+    color: #fff;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    margin-left: 30px;
+    position: relative;
+    color: #fff;
+    
+}
+.navbar .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: 100%;
+    height: 2px;
+  
+}
+
+.navbar .nav-link.active{
+    color: #fff;
+    font-weight: 600;
+}
+/* .navbar .navbar-brand img{
+    max-height: 40px;
+} */
+.dropdown-menu{
+    background-color: #2a252e;
+}
+.dropdown-item{
+    color: #fff;
+}
+
+.navbar .navbar-toggle{
+    border: none !important;
+    outline: relative !important;
+    box-shadow: none !important;
+}
+.navbar .toggle-btn{
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    z-index: 1100;
+}
+.navbar .toggle-btn .bar{
+    width: 25px;
+    height: 3px;
+    margin: 7px 0 7px auto;
+    transition: all .2s ease-in-out;
+    background-color: #f9f06d;
+
+}
+.navbar .toggle-btn .bar:nth-child(2){
+    width: 35px;
+}
+.navbar #toggle-menu{
+    display: none;
+}
+.navbar #toggle-menu:checked+label.
+toggle-btn .bar:nth-child(2){
+    transform: translateX(50px);
+    opacity: 0;
+}
+.navbar #toggle-menu:checked+label.
+toggle-btn .bar:nth-child(1){
+    transform: translateY(12px) rotate(45deg);
+    
+}
+.navbar #toggle-menu:checked+label.
+toggle-btn .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    
+}
+.btn-outline-success{
+    color: #fff;
+}
+.d-flex{
+    color: #fff;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 700px;
+}
+
+/* Estilos para las columnas */
+.columna {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.columna h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 768px) {
+    .columna {
+        flex-basis: 100%;
+    }
+}
+
+/* Estilos para la columna de redes sociales */
+.redes-sociales {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.redes-sociales h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.logo-footer{
+    width: 80px;
+}
+h3{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 700px;
+}
+
+/* Estilos para las columnas */
+.columna {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.columna h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 768px) {
+    .columna {
+        flex-basis: 100%;
+    }
+}
+
+/* Estilos para la columna de redes sociales */
+.redes-sociales {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.redes-sociales h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.logo-footer{
+    width: 80px;
+}
+h3{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+

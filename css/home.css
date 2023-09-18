@@ -1,0 +1,489 @@
+section{
+    width: 100vw;
+    height: 13vh;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    margin-left: 80px;
+    position: relative;
+    color: #fff;
+    
+}
+.navbar .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: 100%;
+    height: 2px;
+  
+}
+
+.navbar .nav-link.active{
+    color: #fff;
+    font-weight: 600;
+}
+/* .navbar .navbar-brand img{
+    max-height: 40px;
+} */
+.dropdown-menu{
+    background-color: #2a252e;
+}
+.dropdown-item{
+    color: #fff;
+}
+
+.navbar .navbar-toggle{
+    border: none !important;
+    outline: relative !important;
+    box-shadow: none !important;
+}
+.navbar .toggle-btn{
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    z-index: 1100;
+}
+.navbar .toggle-btn .bar{
+    width: 25px;
+    height: 3px;
+    margin: 7px 0 7px auto;
+    transition: all .2s ease-in-out;
+    background-color: #f9f06d;
+
+}
+.navbar .toggle-btn .bar:nth-child(2){
+    width: 35px;
+}
+.navbar #toggle-menu{
+    display: none;
+}
+.btn-outline-success{
+    color: #fff;
+}
+
+.logo-nav{
+    width: 50px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px){
+    .logo-nav{
+        margin-left: 10px;
+    }
+}
+.body{
+    
+    background: rgb(105,0,0);
+    background: linear-gradient(90deg, rgba(105,0,0,1) 33%, rgba(221,0,0,1) 73%);
+
+   
+}
+
+.banner {
+    
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+    
+ 
+#texto-borde {
+    -webkit-text-stroke-color: 1px black;
+    color: white; 
+  }
+   
+.wrap-texto{
+    
+    color:aliceblue;
+    position: absolute;
+    
+    top:20%;
+    left: 5%;
+    margin-right: 60%;
+    transform: translate(-50% -50%);
+    max-width: 400px;
+    width: 100%;
+    font-size: 20px;
+
+    
+    
+    @media screen and (max-width:1050px) {
+        font-size: 16px;
+        max-width: 300px;
+        top:15%;
+    @media screen and (max-width:950px) {
+        font-size: 15px;
+        max-width: 300px;
+    
+    
+    @media screen and (max-width:750px) {
+        font-size: 13px;
+        max-width: 300px;
+        top:10%;       
+        
+}
+}    
+}
+}  
+
+
+.wrap-texto p{
+@media screen and (max-width:650px) {
+   
+    display: none;
+
+}
+}
+
+.wrap-texto h3{
+    @media screen and (max-width:350px) {
+        
+        display: none;
+    
+    }
+    }
+
+
+.wrap-texto3{
+    
+    color:aliceblue;
+    
+    position: absolute;
+    top:20%;
+    left: 5%;
+    margin-right: 60%;
+    transform: translate(-50% -50%);
+    max-width: 400px;
+    width: 100%;
+    font-size: 20px;
+
+    @media screen and (max-width:950px) {
+        font-size: 15px;
+        max-width: 300px;
+    
+    
+    @media screen and (max-width:850px) {
+        font-size: 10px;
+        max-width: 300px;
+
+        @media screen and (max-width:650px) {
+            font-size: 10px;
+            max-width: 200px;
+        
+            @media screen and (max-width:650px) {
+                font-size: 10px;
+            max-width: 200px;
+
+            @media screen and (max-width:320px) {
+                font-size: 1px;}
+        
+       
+}   
+}
+}  
+}
+}
+
+
+.wrap-texto3 p{
+
+    @media screen and (max-width:450px) {
+        display: none;
+}
+}
+
+
+.card{
+    margin-top: 20px;
+}
+
+
+
+.poster{   
+   
+    
+    border: 2px solid black;
+    display: flex;
+    margin: 30px;
+    border-radius: 2rem;
+    box-shadow: 9px 9px 0px  ;
+    
+    
+
+
+}
+
+img.posters{
+    margin: 20px;
+    height: 200px;
+    border: 2px solid white;
+    position: relative;
+    transition: all .3s ease;
+
+    @media screen and (max-width:1300px) {
+       
+        
+        height: 180px;}
+    
+    @media screen and (max-width:1100px) {
+       
+        
+        height: 150px;}
+
+    @media screen and (max-width:1000px) {
+       
+        
+        height: 120px;}
+
+        @media screen and (max-width:900px) {
+       
+            margin-top: 40px; 
+            height: 100px;}
+
+    @media screen and (max-width:550px) {
+       
+            flex-direction:row;    
+            height: 80px;
+            margin-right: 5px}
+
+
+    
+    
+}
+
+img.posters:hover {
+
+   transform: scale(1.05);
+}
+
+
+
+.poster p{
+    margin-top: 20px;
+    flex-direction: column;
+    font-size: large;
+    color: white;
+    padding: 10px;
+
+    @media screen and (max-width:1300px) {
+       
+        
+        font-size: 15px;}
+    
+    @media screen and (max-width:1100px) {
+       
+        
+        font-size: 14px;}
+
+    @media screen and (max-width:900px) {
+       
+        
+        font-size: 13px;}
+
+        @media screen and (max-width:800px) {
+       
+            flex-direction:row;
+            font-size: 13px;}
+
+            @media screen and (max-width:500px) {
+       
+                flex-direction:row;
+                font-size: 12px;}
+    
+    
+    
+    
+    
+
+    
+}
+
+img.publi {
+
+    margin: 10px;
+    width: 500px;
+    display: flex;
+    -ms-flex-align: center;
+
+    @media screen and (max-width:1700px) {
+       
+        margin-right: 15px;
+        width: 400px;}
+    
+    @media screen and (max-width:1500px) {
+       
+        
+        margin-right: 15px;
+        width: 350px;}
+
+    @media screen and (max-width:1300px) {
+       
+        
+        margin-right: 15px;
+        width: 300px;}
+
+        @media screen and (max-width:1100px) {
+       
+            margin-right: 15px;
+            width: 250px;}
+
+            @media screen and (max-width:1000px) {
+       
+                margin-right: 15px;
+                width: 210px;}
+
+    @media screen and (max-width:900px) {
+       
+              
+        margin-right: 15px;
+        width: 180px;}
+
+        @media screen and (max-width:750px) {
+       
+              
+           text-align: center;
+            width: 300px;
+            margin-left: 3rem;
+        }
+
+            
+
+    
+}
+
+.categorias{
+  
+    border: 2px solid black;
+    margin-right: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    color:aliceblue;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 4px 0px rgb(49, 48, 48);
+
+
+    @media screen and (max-width:770px) {
+       
+        
+        
+        margin-left: 30px;}
+
+}
+
+#cuerpo {
+    margin-right: 80px;
+    margin-left: 80px;
+    background: rgb(105,0,0);
+    background: linear-gradient(90deg, rgb(63, 1, 1) 33%, rgb(160, 2, 2) 73%);
+
+    @media screen and (max-width:1200px) {
+       
+        
+        margin-right: 25px;
+        margin-left:25px;}
+
+    @media screen and (max-width:1100px) {
+       
+        
+        margin-right: 20px;
+        margin-left:20px;}
+
+        @media screen and (max-width:900px) {
+       
+        margin-right: 10px;
+        margin-left:10px;}
+
+   
+    
+    
+    
+    
+    
+    @media screen and (max-width:770px) {
+       
+        
+        margin: 5px;}
+    
+ 
+}
+@media (max-width: 1024px){
+    .logo-nav{
+        margin-left: 10px;
+    }
+}
+/* Estilos generales para el footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para las columnas */
+.columna {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.columna h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 768px) {
+    .columna {
+        flex-basis: 100%;
+    }
+}
+
+/* Estilos para la columna de redes sociales */
+.redes-sociales {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.redes-sociales h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.logo-footer{
+    width: 80px;
+}
+h3{
+    text-decoration: none;
+    color: white;
+}

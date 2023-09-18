@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineflix+ | Home</title>
+    <link rel="icon" href="/img/PNG image logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body class="body">
+
+    
+  <section>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="/html/home.html"><img class="logo-nav" src="/img/logo cineflix+ blanco.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <input type="checkbox" name="toggle-menu" id="toggle-menu">
+            <label for="toggle-menu" type="button" class="toggle-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/html/login.html">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reseñas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Películas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Series</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Documentales</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/Conocenos.html" >Conócenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="/html/suscripcion.html">Suscríbete</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <a href="/html/Error.html" class="btn btn-outline-light"  type="submit">Buscar</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</section>
+   <!-- Inicio del Banner -->
+
+   <!-- Inicio Item 1 -->
+   <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/banner3.png" class="d-block w-100" alt="fondo del nuevo live action de one piece">
+        <div id="texto-borde"  class="wrap-texto">
+            <img src="/img/logo one piece.png" alt="Logo Live acrion One piece" width="100%" >
+            <h3>Nuevos episodios</h3>
+            <p>Acompaña al próximo rey de los piratas en esta fantástica historia. Basada en el manga mundialmente reconocido de One piece y supervisada por su mismo autor: Eiichirō Oda</p>                        
+        </div>
+      </div>
+    <!-- Fin Item 1 -->
+
+    <!-- Inicio Item 2 -->
+
+      <div class="carousel-item">
+        <img src="/img/banner2.png" class="d-block w-100" alt="Fondo del nuevo spiderman">
+        
+        <div class="wrap-texto">
+
+            <img src="/img/logo spiderman.png" alt="Logo Spiderman" width="80%">
+            
+            <p>“Spider-Man: Across the Spider-Verse” narra la segunda parte de la historia de Miles Morales. Deberá luchar contra “The Spot”, un poderoso villano que representa una gran amenaza.</p>                        
+        </div>
+      </div>
+
+    <!-- Fin Item 2 -->
+
+    <!-- Inicio Item 3 --> 
+    <div class="carousel-item">
+        <img src="/img/banner1.png" class="d-block w-100" alt="Suscríbete a nuestros planes premium">
+        <div class="wrap-texto3">
+                      
+            <h3> Suscríbete a nuestro pack premium</h3>
+            <p>Adquiere el mejor contenido, al mejor precio</p>                        
+        </div>
+     <!-- Fin Item 3 -->
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <!-- Fin del Banner -->
+
+
+    <!-- Inicio lista de recomendaciones-->
+
+    
+    <div id="cuerpo" class="row">
+    
+    
+    <div class="col-sm-12 col-md-8 px-2">
+    
+    <div class="poster">
+      
+      <a href="/html/PeliculaDetalle.html" target=”_blank”>  <img class="posters" src="/img/vengadores.jpg"  alt="Poster vengadores" ></a>
+      <p> El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial. </p>
+
+    </div>
+
+    <div class="poster">
+      
+      <a href="/html/Marginal.html" target=”_blank”> <img class="posters" src="/img/marginal.png"  alt="Imagen de cartelera de: EL Marginal " ></a>
+      <p> Un expolicía infiltrado intenta desbaratar una banda que opera desde la cárcel, pero antes deberá manejar los códigos del inframundo para sobrevivir. </p>
+
+    </div>
+
+    <div class="poster">
+      
+      <a href="/html/home.html" target=”_blank”>  <img class="posters" src="/img/casadepapel.png"  alt="Poster vengadores" ></a>
+      <p> Ocho ladrones toman rehenes en la Fábrica Nacional de Moneda y Timbre de España, mientras el líder de la banda manipula a la policía para cumplir con su plan. </p>
+
+    </div>
+
+    <div class="poster">
+      
+      <a href="/html/home.html" target=”_blank”>  <img class="posters" src="/img/house.png"  alt="Poster vengadores" ></a>
+      <p> La serie gira alrededor del Dr. Gregory House, un misántropo genio de la medicina, ególatra y de fuerte y marcada personalidad que dirige el departamento de diagnóstico médico del ficticio Hospital Universitario Princeton-Plainsboro de Nueva Jersey, dirigido por la Dra. Lisa Cuddy. </p>
+
+    </div>
+    
+    
+    
+  
+    </div>
+
+    <!--Columna Aside-->
+
+    <div class="col-sm-12 col-md-4 mt-3 px-2">
+      <div class="asideIndex d-flex flex-column sticky-top">
+
+     
+        <!-- publicidad -->
+      <div>
+
+        <div class="categorias">
+          <p>Categorias</p>
+          <ul>
+            <li><a href="/html/comedia.html" > Comedia </a></li>
+            <li><a href="/html/cienciaficcion.html" >Ciencia Ficcion</a></li>
+            
+          </ul>
+
+        </div>
+
+
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="publi" src="/img/Publicidad2.png" class="d-block w-90" alt="publicidad,nuevo peugeot">
+            </div>
+            <div class="carousel-item">
+              <img class="publi" src="/img/Publicidad3.png" class="d-block w-100" alt="Publicidad Taylor Swift">
+            </div>
+            <div class="carousel-item">
+              <img class="publi" src="/img/Publicidad4.png" class="d-block w-100" alt="Publicidad MakeUp">
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- publicidad -->
+
+
+    </div>
+      </div>
+    </div>
+   
+
+
+
+  <!-- Fin lista de recomendaciones-->
+  <footer>
+        
+       
+    <div class="columna">
+                
+                <img class="logo-footer" src="/img/logo cineflix+ blanco.png" alt="Logo del Sitio">
+            </div>
+            <div class="columna">
+                <h3>Sobre Nosotros</h3>
+                <p>Información sobre nosotros y nuestra empresa.</p>
+                <a href="/html/Conocenos.html">Leer más</a>
+            </div>
+            <div class="columna">
+               <h3><a class="text-light" href="/html/Visitanos.html">Visitanos</a></h3>
+            </div>
+            <div class="redes-sociales">
+              <h3>Síguenos</h3>
+               <!-- Agrega aquí tus iconos de redes sociales (por ejemplo, usando fuentes de iconos) --> 
+               <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" ></i></a>
+               <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+               <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </footer>
+
+</body>
+</html>
+
+
